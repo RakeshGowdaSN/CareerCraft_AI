@@ -1,0 +1,117 @@
+{
+    "Rakesh": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "Making people around me happy by earning a lot and be wealthy",
+        "skills": null,
+        "interests": "Based on the conversation history, the user's primary interests include:\n\n1. **Structured Planning**: The user prefers to plan things out, set goals, and follow up with dedication, suggesting a preference for structure and organization.\n\n2. **Interpersonal Skills**: They highlight the importance of hearing others out and being calm in conversations, indicating an interest in effective communication and conflict resolution.\n\n3. **Balance**: The user enjoys a balance between various activities, suggesting versatility in approaches and preferences, whether in",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "The user exhibits a preference for structure and planning, indicating traits of conscientiousness and organization. They demonstrate a calm and diplomatic approach to conflict, showing emotional stability and agreeableness. Additionally, their interests in both structured and creative activities, such as playing sports and developing with AI, highlight a balanced and flexible mindset, with a thoughtful and goal-oriented nature.",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rakesh1": {
+        "age": 31,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be able to follow my passion",
+        "skills": null,
+        "interests": null,
+        "values": null,
+        "career_goals": null,
+        "personality_traits": null,
+        "chatbot_state": {
+            "step": "personality_questions",
+            "responses": [
+                "User: High",
+                "User: go with flow",
+                "User: I stop arguing",
+                "User: any is fine",
+                "User: familiar ones",
+                "User: Playing sports, watching anime, developing something interesting with AI",
+                "User: More of a thinker",
+                "User: Plan my goals and timeline and follow up with dedication",
+                "User: Depending on situation I prefer both",
+                "User: Rest and nature sightseeing"
+            ],
+            "question_index": 10
+        },
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rakesh_11": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be able to follow my passionate sports",
+        "skills": null,
+        "interests": null,
+        "values": null,
+        "career_goals": null,
+        "personality_traits": null,
+        "chatbot_state": {
+            "step": "personality_questions",
+            "responses": [
+                "User: Plan things out first",
+                "User: Here them out and be calm and stop arguing if they are not ready to listen",
+                "User: I prefer structured",
+                "User: A little bit of both",
+                "User: A little bit of both",
+                "User: Playing sports, watching anime, developing something interesting with AI",
+                "User: More of a thinker",
+                "User: Plan my goals and timeline and follow up with dedication",
+                "User: Depending on situation I prefer both",
+                "User: Rest and nature sightseeing"
+            ],
+            "question_index": 10
+        },
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rakesh_12": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be able to follow my passionate sports",
+        "skills": null,
+        "interests": "The user's primary interests include engaging in sports, watching anime, and developing projects involving artificial intelligence. They are inclined towards planning and goal-setting, suggesting a preference for structured and thoughtful approaches in various situations. Moreover, the user enjoys relaxing activities such as resting and nature sightseeing, indicating an appreciation for balance and time spent in calm environments. Overall, their interests reflect a mix of active, creative, and contemplative pursuits.",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "The user exhibits traits of an organized and strategic thinker, valuing planning and dedication in achieving goals. They demonstrate a calm and adaptive approach to conflict resolution, emphasizing listening and understanding. Their interests in sports, anime, and AI development suggest a curious and balanced personality that enjoys both mental and physical activities, with a preference for thoughtful reflection.",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rakesh_13": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be able to follow my passionate sports",
+        "skills": null,
+        "interests": null,
+        "values": null,
+        "career_goals": null,
+        "personality_traits": null,
+        "chatbot_state": {
+            "step": "personality_questions",
+            "responses": [
+                "User: High",
+                "User: Plan things out first",
+                "User: Here them out and be calm and stop arguing if they are not ready to listen",
+                "User: I prefer structured",
+                "User: A little bit of both",
+                "User: Playing sports, watching anime, developing something interesting with AI",
+                "User: More of a thinker",
+                "User: Plan my goals and timeline and follow up with dedication",
+                "User: Depending on situation I prefer both",
+                "User: Rest and nature sightseeing"
+            ],
+            "question_index": 10
+        },
+        "location": "Bengaluru, India",
+        "location_asked": true
+    }
+}
