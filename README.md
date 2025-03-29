@@ -36,6 +36,7 @@ CareerCraft AI is an intelligent application designed to provide personalized ca
 ---
 
 ## Code Repository Structure
+```
 
 CareerCraft-AI/
 ├── backend/
@@ -54,7 +55,7 @@ CareerCraft-AI/
 ├── .env # Environment variables (e.g., OpenAI API key)
 └── README.md # This file
 
-text
+```
 
 ---
 
@@ -72,19 +73,14 @@ text
 git clone <repository_url>
 cd CareerCraft-AI
 
-text
-
 2. Create a virtual environment and activate it:
 python -m venv venv
 source venv/bin/activate # On macOS/Linux
 
 venv\Scripts\activate # On Windows
-text
 
 3. Install the required dependencies:
 pip install -r requirements.txt
-
-text
 
 4. Set up environment variables:
 - Create a `.env` file in the root directory.
@@ -103,13 +99,9 @@ text
 cd backend
 uvicorn app:app --reload
 
-text
-
 2. Start the Streamlit frontend (in a separate terminal):
 cd frontend
 streamlit run app.py
-
-text
 
 3. Access the application through the Streamlit web interface at [http://localhost:8501](http://localhost:8501).
 
@@ -140,7 +132,6 @@ curl -X 'GET'
 'http://127.0.0.1:8000/users/Rakesh_11'
 -H 'accept: application/json'
 
-text
 
 #### Chatbot Interaction:
 curl -X 'POST'
@@ -152,7 +143,6 @@ curl -X 'POST'
 "message": "Tell me about your energy levels in social situations."
 }'
 
-text
 
 #### Get Focus Recommendation:
 curl -X 'POST'
@@ -163,7 +153,6 @@ curl -X 'POST'
 "user_id": "Rakesh_11"
 }'
 
-text
 
 #### Get Career Recommendation:
 curl -X 'POST'
@@ -174,8 +163,6 @@ curl -X 'POST'
 "user_id": "Rakesh_11",
 "chosen_focus_area": "Technology"
 }'
-
-text
 
 ---
 
