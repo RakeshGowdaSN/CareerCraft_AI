@@ -6,7 +6,7 @@ load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-async def generate_llm_response(prompt: str, model: str = "gpt-4o", max_tokens: int = 150):
+async def generate_llm_response(prompt: str, model: str = "gpt-4o-mini", max_tokens: int = 200):
     """Generate a response from the OpenAI language model."""
     try:
         client = openai.OpenAI()

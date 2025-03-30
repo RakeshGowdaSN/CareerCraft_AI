@@ -113,5 +113,143 @@
         },
         "location": "Bengaluru, India",
         "location_asked": true
+    },
+    "Rakesh_2": {
+        "age": 31,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user has a range of primary interests that include engaging in physical sports, watching anime, and developing projects related to AI. They also enjoy reading books focused on personal development and finance. The user values social interactions, both with new acquaintances and old friends, and prefers structured environments that allow for detailed planning and goal-setting. They approach situations thoughtfully, taking calculated risks when appropriate. To recharge their energy, they enjoy resting or spending time in nature. Overall, their interests reflect a blend of social engagement,",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "The user displays a blend of extroversion and conscientiousness, thriving in social environments while preferring structured and well-planned situations. They are analytical and goal-oriented, taking a thoughtful approach to decision-making and risk assessment, and they enjoy both physical activities and intellectual pursuits. Their preference for detailed planning and dedication suggests they would excel in careers that value organization, interpersonal interaction, and strategic thinking.",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rakesh_3": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user's primary interests include social interactions, as they enjoy meeting new people and reconnecting with old friends, particularly in structured environments. They are physically active, participating in sports, and have a strong interest in anime. The user is also engaged in the field of AI development, showing a penchant for creating and innovating. Additionally, they are interested in personal development and finance, often reading books on these topics. The user values thoughtful planning and goal-setting, demonstrating a methodical approach to achieving their objectives",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "Based on your responses, it appears that you exhibit a blend of extroverted and introverted tendencies. While you have high energy levels in social situations and enjoy meeting new people, you also value your established relationships and prefer structured environments. This balance suggests that you thrive in social settings but can easily retreat to focus on individual interests or deeper connections. You likely find comfort in both networking and nurturing existing bonds, which can be beneficial in roles that require collaboration as well as independent project work.\n\nYour approach to tasks and challenges is highly organized and methodical. You prefer detailed planning, set clear goals with timelines, and show dedication in following through on them. This suggests a strong tendency towards persistence and a pragmatic mindset. Your willingness to take calculated risks while also knowing when to play it safe indicates a thoughtful approach to decision-making. This trait would serve you well in careers that require strategic planning and careful execution, such as project management, operations, or roles within the tech industry where innovation meets risk management.\n\nEmotion",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Hi_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": null,
+        "values": null,
+        "career_goals": null,
+        "personality_traits": null,
+        "chatbot_state": {
+            "step": "personality_questions",
+            "responses": [
+                "User: My energy levels are quite high in social situations"
+            ],
+            "question_index": 1
+        },
+        "location": null,
+        "location_asked": false
+    },
+    "Rakesh_5_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "My energy levels are quite high in social situations",
+        "skills": null,
+        "interests": null,
+        "values": null,
+        "career_goals": null,
+        "personality_traits": null,
+        "chatbot_state": {
+            "step": "personality_questions",
+            "responses": [
+                "User: My energy levels are quite high in social situations"
+            ],
+            "question_index": 1
+        },
+        "location": null,
+        "location_asked": false
+    },
+    "Rocky_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user's primary interests include social interactions, both with new and old acquaintances, and engaging in physical sports. They enjoy watching anime and developing projects related to AI. Additionally, they have an interest in reading books focused on personal development and finance. The user demonstrates a thoughtful and organized approach to life, emphasizing planning and goal-setting while also valuing structured environments. They recharge by spending time in nature.",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "Based on the user's responses, it is clear that they possess several key personality traits that can provide insight into their career preferences and potential. \n\nIn terms of social tendencies, the user demonstrates qualities characteristic of an extroverted personality. They experience high energy levels in social situations and enjoy meeting new people while also valuing established relationships. This suggests they thrive in collaborative environments where interaction with others is frequent, which could lead them to roles that involve teamwork, networking, or client engagement.\n\nThe user's approach to tasks and challenges indicates a strong preference for organization and planning. Their inclination to plan in detail, set goals with timelines, and follow through with dedication reveals a methodical and disciplined mindset. They exhibit persistence and adaptability, as they can take calculated risks when necessary but prefer structured environments. These traits are particularly beneficial in careers that require project management, strategic planning, or roles within industries that value precision and organization.\n\nEmotionally, the user appears to have an analytical style. They express a thoughtful approach to discussions",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rocky_1_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user has a diverse range of interests that include social engagement, a preference for structured environments, and a balance between meeting new people and maintaining existing relationships. They enjoy playing physical sports, watching anime, and developing projects related to artificial intelligence. Additionally, they take an interest in personal development and finance by reading books on those topics. The user identifies as a thinker who sets and diligently pursues goals, taking calculated risks when appropriate. To recharge, they prefer resting or going out for nature sightseeing.",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "Based on the user's responses, it is clear that they exhibit extroverted tendencies, given their high energy levels in social situations and their enjoyment of meeting new people. However, their inclination to stick with familiar acquaintances suggests a preference for deeper, more meaningful connections rather than an endless pursuit of new social interactions. This blend indicates that they thrive in social environments but also place value on established relationships.\n\nIn terms of their approach to tasks and challenges, the user demonstrates strong organizational skills and strategic planning abilities. Their preference for detailed planning and structured environments suggests they are methodical and deliberate in their work. Additionally, their ability to take calculated risks while maintaining a focus on safety reveals a balanced and thoughtful decision-making process. This combination of qualities points to a persistent and goal-oriented mindset, likely enhancing their effectiveness in professional settings.\n\nThe user's emotional style appears to be analytical and calm, as indicated by their tendency to listen and justify their points rather than engage in conflict when faced with disagreement. This shows emotional intelligence and a",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rocky_2_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user's primary interests include social interactions, as they enjoy meeting new people while also appreciating established relationships. They have a passion for physical sports, anime, and developing projects involving AI. Additionally, the user shows an interest in personal development and finance through reading. They are organized and goal-oriented, preferring structured environments and detailed planning. Their approach to decision-making involves a balance of calculated risks and caution, and they find recharging through nature outings. Overall, the user exhibits a blend of social, intellectual",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "Based on the user's responses, they exhibit a blend of extroverted and organized personality traits that can greatly influence their career trajectory. Their high energy levels in social situations suggest they are extroverted and comfortable in group settings, allowing them to thrive in environments that require collaboration and interaction with others. Their enjoyment of meeting new people, coupled with a preference for maintaining established relationships, indicates a strong social aptitude, which can be beneficial in roles that require teamwork, networking, or client relations.\n\nWhen it comes to task management and challenges, the user demonstrates a structured and methodical approach. Their preference for detailed planning reveals an inclination towards organization and foresight, essential traits for careers that necessitate project management, strategic planning, or any role where multitasking and deadlines are important. Additionally, their ability to set goals and follow through with dedication speaks to their persistence and commitment to achieving objectives. This is complemented by their capacity to take calculated risks when necessary, suggesting a balanced approach to innovation and pragmatism.\n\n",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rocky_5_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user has a variety of interests that reflect a mix of social engagement, structured planning, and personal development. They enjoy social situations and meeting new people but also appreciate maintaining long-term relationships. Their hobbies include playing physical sports, watching anime, and developing projects related to AI, which indicates a blend of physical activity and intellectual pursuits. Additionally, they read books focused on personal development and finance, showcasing an interest in self-improvement and financial literacy. Overall, the user values organization and strategic thinking in their",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "Based on the user\u2019s responses, they exhibit several key personality traits that suggest a strong alignment with extroverted tendencies, particularly in social situations. With high energy levels when interacting with others and a stated enjoyment of both meeting new people and maintaining existing relationships, this individual likely thrives in collaborative environments and enjoys being part of a community. Their comfort with social interactions indicates they are likely to engage well in networking and teamwork, which can be beneficial in roles that require building relationships or engaging with clients.\n\nIn terms of their approach to tasks and challenges, the user demonstrates a preference for structure and organization. They like to plan tasks in detail, set goals with timelines, and follow through with dedication. This suggests they would excel in careers that require careful project management, strategic planning, or roles that demand methodical approaches to problem-solving. Their tendency to take calculated risks while also being able to play it safe when necessary indicates a balanced approach to decision-making, making them adaptable to various work situations.\n\nEmotionally, the",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
+    },
+    "Rocky_6_profile": {
+        "age": 30,
+        "educational_background": null,
+        "professional_experience": null,
+        "passion": "To be healthy, wealthy, wise and to make people around me happy",
+        "skills": null,
+        "interests": "The user has a diverse range of interests that include social engagement, both with new and familiar people, as well as structured planning and goal-setting. They enjoy participating in physical sports and have a keen interest in watching anime. Additionally, the user engages in activities related to artificial intelligence development and often reads books focused on personal development and finance. Overall, their interests reflect a blend of social interaction, physical activity, intellectual pursuits, and personal growth.",
+        "values": null,
+        "career_goals": null,
+        "personality_traits": "Based on the user's responses, they exhibit a predominantly extroverted personality, as indicated by their high energy levels in social situations and enjoyment of both meeting new people and maintaining relationships with existing ones. This combination suggests they are likely comfortable in group settings, enjoying interactions that stimulate their energy and social engagement. Their preference for structured environments further highlights their comfort with organized social dynamics and may influence their ability to thrive in professional settings that require collaboration.\n\nThe user's approach to tasks and challenges demonstrates a strong inclination towards planning and organization. They prefer to carefully outline their goals, set timelines, and follow through with dedication. This organized mindset suggests they are persistent and capable of managing multiple responsibilities effectively. Their willingness to take calculated risks shows a balanced and strategic approach to challenges, indicating that they are adaptable and thoughtful in their decision-making process.\n\nEmotionally, the user appears to have an analytical style, preferring to listen and justify in conversations, but also knowing when to step back if discussions become unproductive. This self-awareness",
+        "chatbot_state": null,
+        "location": "Bengaluru, India",
+        "location_asked": true
     }
 }

@@ -64,4 +64,4 @@ PERSONALITY_QUESTIONS = [
     "How do you approach setting and achieving personal goals?",
     "Do you enjoy taking risks, or do you prefer to play it safe?",
     "How do you recharge after a long day or week?"
-]
+];

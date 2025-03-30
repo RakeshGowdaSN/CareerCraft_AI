@@ -29,6 +29,8 @@ def main():
     st.title("CareerCraft AI")
 
     # --- Initialize Session State ---
+    if "user_name" not in st.session_state:
+        st.session_state.user_name = None
     if "user_profile" not in st.session_state:
         st.session_state.user_profile = {} # Initialize as an empty dict
     if "chat_history" not in st.session_state:
@@ -38,11 +40,21 @@ def main():
     if "focus_recommendations" not in st.session_state:
         st.session_state.focus_recommendations = None
 
-    # --- User Identification ---
-    user_id = st.text_input("User ID", "Rakesh_11") # Use the same ID for testing
+    # --- Get User Name ---
+    if not st.session_state.user_name:
+        st.session_state.user_name = st.text_input("Your Name:", placeholder="Enter your name")
+        if st.session_state.user_name:
+            st.session_state.chat_history.append({"role": "career_craft", "content": f"Welcome, {st.session_state.user_name}! Let's explore your potential career paths together."})
+            st.rerun()
+        else:
+            st.stop()
+
+    # --- User Identification (using name as part of ID for simplicity) ---
+    user_id = f"{st.session_state.user_name.replace(' ', '_')}_profile" # Create a user ID
 
     # --- User Profile Section (Sidebar) ---
     st.sidebar.header("Your Profile")
+    st.sidebar.write(f"Your User ID: `{user_id}`") # Optional: Display User ID
     st.session_state.user_profile["age"] = st.sidebar.number_input("Age", min_value=10, max_value=100, value=st.session_state.user_profile.get("age"), placeholder="Enter your age")
     st.session_state.user_profile["educational_background"] = st.sidebar.text_area("Educational Background", value=st.session_state.user_profile.get("educational_background"), placeholder="Your highest degree, major, etc.")
     st.session_state.user_profile["professional_experience"] = st.sidebar.text_area("Professional Experience", value=st.session_state.user_profile.get("professional_experience"), placeholder="Previous roles, industries, etc.")
@@ -57,7 +69,7 @@ def main():
     st.header("Chatbot")
     chat_placeholder = st.empty()
 
-    user_message = st.text_input("Your Message:")
+    user_message = st.text_input(f"{st.session_state.user_name}:") # Dynamic username for input
     if st.button("Send Message"):
         if user_id and user_message:
             st.session_state.chat_history.append({"role": "user", "content": user_message})
@@ -67,26 +79,20 @@ def main():
                 chatbot_response = response.get("response")
                 is_complete = response.get("is_assessment_complete", False)
                 if chatbot_response:
-                    st.session_state.chat_history.append({"role": "chatbot", "content": chatbot_response})
+                    st.session_state.chat_history.append({"role": "career_craft", "content": chatbot_response}) # Use "career_craft" role
                 st.session_state.is_assessment_complete = is_complete
-                # Fetch updated profile after assessment completion
-                if st.session_state.is_assessment_complete:
-                    updated_profile = fetch_user_profile(user_id)
-                    if updated_profile:
-                        st.session_state.user_profile.update(updated_profile)
-                        st.write("Updated User Profile in Frontend:", st.session_state.user_profile) # Debugging
             else:
-                st.session_state.chat_history.append({"role": "chatbot", "content": "Sorry, I encountered an error."})
+                st.session_state.chat_history.append({"role": "career_craft", "content": "Sorry, I encountered an error."})
         else:
-            st.warning("Please enter both User ID and a message.")
+            st.warning("Please enter a message.")
         st.rerun()
 
     with chat_placeholder.container():
         for message in st.session_state.chat_history:
             if message["role"] == "user":
-                st.markdown(f'<div style="text-align: right; background-color: #e0f2f7; padding: 8px; border-radius: 5px; margin-bottom: 5px;">User: {message["content"]}</div>', unsafe_allow_html=True)
-            else:
-                st.markdown(f'<div style="text-align: left; background-color: #f0f0f0; padding: 8px; border-radius: 5px; margin-bottom: 5px;">Chatbot: {message["content"]}</div>', unsafe_allow_html=True)
+                st.markdown(f"<div style=\"text-align: right; background-color: #e0f2f7; padding: 8px; border-radius: 5px; margin-bottom: 5px;\">{st.session_state.user_name}: {message['content']}</div>", unsafe_allow_html=True) # Dynamic username in display
+            elif message["role"] == "career_craft":
+                st.markdown(f'<div style="text-align: left; background-color: #f0f0f0; padding: 8px; border-radius: 5px; margin-bottom: 5px;">CareerCraft: {message["content"]}</div>', unsafe_allow_html=True) # "CareerCraft" display
 
     # --- Focus Recommendation ---
     st.header("Focus Recommendation")
@@ -104,7 +110,7 @@ def main():
             else:
                 st.error("Failed to get focus recommendations.")
         else:
-            st.warning("Please enter a User ID.")
+            st.warning("Please enter your name to proceed.")
 
     # --- Career Recommendation ---
     st.header("Career Recommendation")
@@ -115,16 +121,14 @@ def main():
             response = call_api("/recommend/careers", method="post", data=data)
             if response:
                 st.subheader("Recommended Careers:")
-                for career in response.get("recommended_careers", []):
-                    st.markdown(f"- **{career}**")
+                for career_data in response.get("recommended_careers", []):
+                    st.markdown(f"- **{career_data['name']}**: {career_data['description']}")
                 if "soft_skills" in response:
                     st.write("Soft Skills:", response["soft_skills"])
-                if "reasoning" in response:
-                    st.write("Reasoning:", response["reasoning"])
             else:
                 st.error("Failed to get career recommendations.")
         else:
-            st.warning("Please enter User ID and Chosen Focus Area.")
+            st.warning("Please enter your name and a Chosen Focus Area.")
 
     # --- Utility Buttons for Debugging ---
     if st.sidebar.checkbox("Show Session State"):
